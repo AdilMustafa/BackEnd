@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html>
+  <head>
+  <title>This is the About Page!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Yrsa" rel="stylesheet">
+  </head>
+  <style>
+
+body{/*this allows me to alter the HTML body tag (in this case its purpose is to make the background grey)*/                                                                                                       
+    background:#EDEFEF;
+}                                                                                                                                                                                                                  
+#container{ /*this is a container (this will hold all the main sections of the website together)*/                                                                                                                 
+    border: 1px solid black;
+    background:white;
+    margin:auto;
+    max-width:920px;
+    min-width:200px;                                                                                                                                                                                                   height:1125px;                                                                                                                                                                                                 
+}
+
+#header{ /*this is the header*/
+
+    width:100%;
+    border-bottom:1px solid black;
+    height:100px;
+    background:#33383b;
+    padding:0;
+
+}
+
+#navigation{ /*this provides the navigation bar with a background and makes its width responsive*/
+
+    float:left;
+    width:100%;
+    background:#33383b;
+    border-top:1px solid white;
+}
+
+#navigation ul{ /*this alters the ul HTML tag that is inside the navigation tag*/
+
+    margin: 0;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navigation ul li{
+
+    list-style-type:none;
+    display:inline;
+}
+
+#navigation ul li a{
+    display:block;
+    padding:5px 10px;
+    font-family: 'Poiret One', cursive;
+    text-decoration:none;
+    color:white;
+    align-items:center;
+}
+
+#navigation ul li a:hover{
+                                                                                                                                                                                                                       background:white;
+    color:black;
+    text-decoration:underline;
+}
+
+#banner{ /*this is the banner*/
+
+    width:95%;
+    margin-left:1px;
+    height:78%;
+    text-align:center;
+    float:left;
+    font-family: 'Poiret One', cursive;
+    font-size: 4em;
+    padding:7px;
+    color:white;
+    background:#33383b;
+}
+
+#maincontent{ /*this is the where the main content of the webpage will be located*/
+
+    width:100%;
+    border-bottom:1px solid black;
+    height:950px;
+    background:white;
+    padding:0;
+
+}
+
+#welcome{ /*this is the welcome box, it will store information about the purpose of the website*/
+
+    border:1px solid black;
+    width:90%;
+    height:600px;
+    float:left;
+    margin:25px;
+    font-size:21px;
+    font-family: 'calibri';
+    padding:7px;
+}
+
+#head2{
+
+    width:98%;
+    height:28%;
+    border-bottom:1px solid black;
+    text-align:center;
+    float:left;
+    font-family: 'Poiret One', cursive;
+    font-size: 4em;
+    padding:10px;
+    color:white;
+    background:#33383b;
+}
+
+
+  </style>
+
+  <body>
+
+   
+<div id = "container">
+
+
+        <div id= header>
+                <div id="banner"> Calorie Buddy - About Page </h1></div>
+        </div>
+
+        <div id= "navigation">
+        <ul>	<li><a href='./'>Home</a></li> <!--Take user to the Home page -->
+                <li><a href='/about'>about us</a></li> <!--Take user to the about page -->
+                <li><a href='/register'>Register</a></li> <!--Takes user to register page -->
+                <li><a href='/login'>login</a></li> <!--Take user to login page -->
+                <li><a href='/logout'>log out</a></li> <!--Take user to log out page -->
+                <li><a href='/addfood'>Add food</a></li> <!--Take user to add food page -->
+                <li><a href='/search'>Search food</a></li> <!--Take user to search page -->
+                <li><a href='/updatefood'>Update Food</a></li> <!--Take user update food page -->
+                <li><a href='/listfood'>List Food</a></li> <!--Take user to List food page -->
+                <li><a href='/api'>api</a></li> <!--Take user to the API page -->
+        </ul>
+        </div>
+
+        <div id="maincontent">
+                <div id="welcome">
+                   <div id="head2">
+                    About Us
+                    </div>
+                 	This website is designed to be a calorie counter to help you manage your diet. <br> 
+			The register, login and logout pages are all dedicated in allowing users to create an account and logging in/out. <br>
+			Add food allows users to add food to the database and set its typical values, unit of the typical value, calories, carbs, fat, protein, salt, and sugar. <br>
+			The search page allows users to seach for a food item. <br>
+			Update food page allows users to update food and if they created the original listing they can also delete the food from the database. <br>
+			List food simply lists all the food inside the database. <br>
+			Api page will be listing all foods stored in the database in JSON format <br> 
+			Developer name: Muhammed Adil Mustafa   ID: Mmust002 <br>
+			
+                </div>
+
+        </div>
+
+</div>
+
+</body>
+</html>
+                                                                               
+
+
